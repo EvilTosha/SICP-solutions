@@ -62,7 +62,7 @@
 
 ;;; ex 1.19
 
-(define (sqr a) (* a a))
+(define (sqr x) (* x x))
 
 (define (fib n)
 	(define (fib-iter a b p q count)
